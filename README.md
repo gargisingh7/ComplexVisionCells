@@ -1,3 +1,11 @@
+This was coded as an assignment for course in IITK. 
+
+The first part consisted of designing complex cells that could recognize (a) triangles and (b) squares using a bank of orientation-selective 2D Gabor filters.
+
+The second part included simulation of the visual search paradigm of Triesman (1980), where the task is to find the odd stimulus in a set of objects.
+
+The third part has implementation of a simple version of feature integration theory, viz. assume there is a matrix each for color and shape information, and that responses must be delayed until information from all relevant stores has been retrieved.
+
 For first part command is:
 	python3 use_test.py filename
 where filename can be result1.png, result2.png, result3.png, result4.png.(The filter can be used only for images with a black background and shape of colour red or blue)
